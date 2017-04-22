@@ -44,16 +44,8 @@ public class BP {
 	private static double trainOutput[][] = new double[TOTAL_PATTERN][OUTPUT_NEURONS];
 	private static double scaledOutput[][] = new double[TOTAL_PATTERN][OUTPUT_NEURONS];
 
-	private static double xMax[] = new double[] { -10000, -10000, -10000, -10000, -10000 };// for
-	// scaling
-	// of
-	// input
-	// data
-	private static double xMin[] = new double[] { 10000, 10000, 10000, 10000, 10000 };// for
-	// scaling
-	// of
-	// input
-	// data
+	private static double xMax[] = new double[] { -10000, -10000, -10000, -10000, -10000 };// for scaling of input data between 0 to 1
+	private static double xMin[] = new double[] { 10000, 10000, 10000, 10000, 10000 };// for scaling of input data between 0 to 1
 
 	public static void main(String[] args) {
 
