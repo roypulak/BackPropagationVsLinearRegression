@@ -1,0 +1,3 @@
+Number of Hidden layer: 2
+Number of Node per hidden layer: 13, 5
+Number of epoch: 10000000 
